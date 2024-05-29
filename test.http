@@ -1,0 +1,28 @@
+POST http://localhost:8181/api/person
+Content-Type: application/json
+Accept: application/json
+
+{
+  "firstName" : "Alvenio",
+  "middleName": "Farhan",
+  "lastName": "Prayogo",
+  "email": "alveniofarhan@gmail.com",
+  "phone": "085156066856",
+  "hobbies": ["Coding", "Reading"],
+  "socialMedias": [
+    {
+      "name": "Facebook",
+      "location": "facebook.com/alveniofarhan"
+    }
+  ]
+}
+
+###
+
+POST http://localhost:8181/todos?todo=Belajar Spring
+Accept: application/json
+
+###
+
+GET http://localhost:8181/todos
+Accept: application/json
